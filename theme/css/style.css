@@ -1488,6 +1488,9 @@ a:focus, a:hover {
   border-color: #28ABE3;
   color: #fff;
 }
+.post_text{
+  color: red;
+}
 
 /* 8.2.3 Comment List */
 .comment-list {
