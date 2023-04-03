@@ -1471,7 +1471,7 @@ a:focus, a:hover {
 }
 
 /* 8.2.2 Post Content */
-.event-list li{
+.event-list{
   font-size: larger;
   color: purple;
 
