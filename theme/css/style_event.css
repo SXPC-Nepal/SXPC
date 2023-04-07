@@ -2280,5 +2280,21 @@ a:focus, a:hover {
   .tab-post-nav li a {
     padding: 10px 15px;
   }
+
 }
+
+.hide-on-mobile {
+  display: block;
+  background-color: black;
+  color: lightseagreen;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
