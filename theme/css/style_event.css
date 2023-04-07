@@ -1471,6 +1471,51 @@ a:focus, a:hover {
 }
 
 /* 8.2.2 Post Content */
+
+/*Countdown Timer Test*/
+#countdown {
+  justify-content: center;
+  flex: auto;
+  display: flex;
+  text-align: center;
+  background-color: black;
+  color: #198dbf;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  background-color: black;
+}
+
+.timer > div {
+  margin: 0 10px;
+  margin-bottom: 1px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: lightseagreen;
+  font-family:'Times New Roman', Times, ser;
+}
+
+.labels {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: yellow;
+}
+
+.labels > div {
+  margin: 0 10px;
+  padding: 20px;
+}
+/*Countdown Timer Test*/
+
 .event-list{
   font-size: larger;
   color: purple;
